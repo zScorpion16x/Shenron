@@ -81,6 +81,7 @@ class NukeToken:
                     print(f"\n{F.YELLOW}[{F.MAGENTA}!{F.YELLOW}] Logging: {F.WHITE}Leaved guild: {F.GREEN}{guild}")
                else:
                     print(f"\n{F.YELLOW}[{F.MAGENTA}!{F.YELLOW}] Logging: {F.WHITE}Guild not leaved: {F.RED}{guild}")
+          time.sleep(2.5)
           clear()
           print(Center.XCenter(BANNER))
           
@@ -105,6 +106,7 @@ class NukeToken:
                     print(f"\n{F.YELLOW}[{F.MAGENTA}!{F.YELLOW}] Logging: {F.WHITE}Message sended: {F.GREEN}{message}")
                else:
                     print(f"\n{F.YELLOW}[{F.MAGENTA}!{F.YELLOW}] Logging: {F.WHITE}Message not sended: {F.RED}{message}")
+          time.sleep(2.5)
           clear()
           print(Center.XCenter(BANNER))
           
@@ -126,6 +128,7 @@ class NukeToken:
                     print(f"\n{F.YELLOW}[{F.MAGENTA}!{F.YELLOW}] Logging: {F.WHITE}MD deleted: {F.GREEN}{message}")
                else:
                     print(f"\n{F.YELLOW}[{F.MAGENTA}!{F.YELLOW}] Logging: {F.WHITE}MD not deleted: {F.RED}{message}")
+          time.sleep(2.5)
           clear()
           print(Center.XCenter(BANNER))
           
