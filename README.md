@@ -6,7 +6,6 @@
 <h3 align="center">About <img src="https://cdn.discordapp.com/emojis/1081702984234324008.gif?v=1" width="30"></h3>
 <p>A <i>multiplatform</i> advanced token <b>nuker</b> made in <code>Python</code> using only <code>requests</code>.</p>
 <h3 align="center">Contact with Me <img src="https://cdn.discordapp.com/emojis/1091519096291590174.gif?v=1" width="30"></h3>
-<img src="https://skillicons.dev/icons?i=django,nodejs,flask,express,nextjs" width="100%">
 <div align="center">
   <p><a href="https://discord.com/users/969657994608533504">Personal Discord</a> || <a href="https://discord.gg/x9cAxPbgsP">Discord Server</a></p>
 </div>
