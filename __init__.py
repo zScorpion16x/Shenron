@@ -43,18 +43,6 @@ OPTIONS: str = f"""
 clear: Callable[[], None] = lambda: os.system('cls' if os.name=='nt' else 'clear')
 
 class Shenron:
-     def __init__(self) -> None:
-          self.version: str = "v1.0.0"
-          self.base_url: str = "https://api.github.com/repos/zScorpion16x/Shenron/releases/latest"
-     def GetLatestVersion(self) -> None:
-          clear()
-          data = requests.get(self.base_url).json()
-          lastversion = data['tag_name']
-          if lastversion > self.version:
-               print(f"{F.YELLOW}[{F.MAGENTA}!{F.YELLOW}] Logging: {F.WHITE}Update: Actual: {version} || Your version: {self.version}")
-               sys.exit()
-          else:
-               self.Initialize()
      def Initialize(self) -> None:
           clear()
           print(Center.XCenter(BANNER))
@@ -116,7 +104,7 @@ class Shenron:
 
 if __name__ == "__main__":
      try:
-          Shenron().GetLatestVersion()
+          Shenron().Initialize()
      except KeyboardInterrupt:
           clear()
           print(f"{F.YELLOW}[{F.MAGENTA}!{F.YELLOW}] Logging: {F.WHITE}Exiting...")
