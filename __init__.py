@@ -49,7 +49,7 @@ class Shenron:
      def GetLatestVersion(self) -> None:
           clear()
           data = requests.get(self.base_url).json()
-          name = data['tag_name']
+          lastversion = data['tag_name']
           if lastversion > self.version:
                print(f"{F.YELLOW}[{F.MAGENTA}!{F.YELLOW}] Logging: {F.WHITE}Update: Actual: {version} || Your version: {self.version}")
                sys.exit()
